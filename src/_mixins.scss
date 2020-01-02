@@ -1,0 +1,6 @@
+@mixin centralize($left,$top) {
+    position: absolute;
+    left:$left;
+    top:$top;
+    transform: translate(-50%,-50%);
+}
